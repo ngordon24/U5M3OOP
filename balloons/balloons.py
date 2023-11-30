@@ -19,7 +19,7 @@ class SwordBalloon(Balloon):
         self.amount = amount
 
 
-class DogBallon(Balloon):
+class DogBalloon(Balloon):
     def __init__(self, capacity=7, amount=0):
         self.capacity = capacity
         self.amount = amount
